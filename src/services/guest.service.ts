@@ -16,7 +16,6 @@ const GET_ALL_GUESTS = gql`
         name
         _id
         code
-        address
         surveyRsvp
         attendanceCount
       }
@@ -44,12 +43,13 @@ const createGuest = async (guest: Guest) => {
       }
     `;
   let { data } = await request(gql);
+  return data.createGuest;
 };
 
-const updateGuest = async (guest: Guest) => {
+const updateGuest = async (id, guest: Guest) => {
   let gql = `
-      mutation CREATE_GUEST {
-          createGuest(data:{
+      mutation UPDATE_GUEST {
+          updateGuest( id: ${id}, data:{
             code: "${guest.code}",
             name:"${guest.name}",
           }) {
@@ -60,12 +60,19 @@ const updateGuest = async (guest: Guest) => {
         }
       `;
   let { data } = await request(gql);
+  return data.updateGuest;
 };
+
 export const importGuests = async (guests: Guest[]) => {
   let existingGuests = await getAllGuests();
   await Promise.all(
     guests.map((guest) => {
       let existing = existingGuests.find((g) => g.code === guest.code);
+      if (existing) {
+        return updateGuest(existing._id, guest);
+      } else {
+        return createGuest(guest);
+      }
     })
   );
 };

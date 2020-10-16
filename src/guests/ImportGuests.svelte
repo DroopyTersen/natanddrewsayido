@@ -1,6 +1,7 @@
 <script lang="ts">
   import * as Papa from "papaparse";
   import type { Guest } from "../services/guest.service";
+  import { importGuests } from "../services/guest.service";
   let csvText = "";
   $: csvResult = Papa.parse(csvText, { header: true }) as { data: Guest[] };
   $: {
@@ -23,27 +24,20 @@
   <textarea id="csv-text" bind:value={csvText} />
 </div>
 
+<button on:click={() => importGuests(csvResult.data)}>Import</button>
 <h2>Parsed Guests</h2>
 <table>
   <thead>
+    <th>Code</th>
     <th>Name</th>
-    <th>Address</th>
-    <th>Email</th>
-    <th>Phone</th>
+    <th>RSVP Survey</th>
   </thead>
   <tbody>
     {#each csvResult.data as guest}
       <tr>
+        <td>{guest.code}</td>
         <td>{guest.name}</td>
-        <td>
-          {guest.address}
-          <br />
-          {guest.city},
-          {guest.state}
-          {guest.zipcode}
-        </td>
-        <td>{guest.email}</td>
-        <td>{guest.phone}</td>
+        <td>{guest.surveyRsvp}</td>
       </tr>
     {/each}
   </tbody>
