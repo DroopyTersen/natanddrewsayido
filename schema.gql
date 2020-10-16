@@ -1,14 +1,8 @@
 type Guest {
-  id: ID!
+  code: ID!
   name: String!
-  address: String
-  city: String
-  state: String
-  zipcode: String
-  phone: String
   surveyRsvp: Int
   attendanceCount: Int
-  email: String
 }
 
 type Query {
