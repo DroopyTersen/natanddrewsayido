@@ -43,7 +43,6 @@ const createGuest = async (guest: Guest) => {
       }
     `;
   let { data } = await request(gql);
-  return data.createGuest;
 };
 
 const updateGuest = async (id, guest: Guest) => {
@@ -60,19 +59,16 @@ const updateGuest = async (id, guest: Guest) => {
         }
       `;
   let { data } = await request(gql);
-  return data.updateGuest;
 };
 
 export const importGuests = async (guests: Guest[]) => {
   let existingGuests = await getAllGuests();
-  await Promise.all(
-    guests.map((guest) => {
-      let existing = existingGuests.find((g) => g.code === guest.code);
-      if (existing) {
-        return updateGuest(existing._id, guest);
-      } else {
-        return createGuest(guest);
-      }
-    })
-  );
+  for (var i = 0; i < guests.length; i++) {
+    let existing = existingGuests.find((g) => g.code === guests[i].code);
+    if (existing) {
+      await updateGuest(existing._id, guests[i]);
+    } else {
+      await createGuest(guests[i]);
+    }
+  }
 };
