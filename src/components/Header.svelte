@@ -1,10 +1,14 @@
 <script>
   import { } from "svelte"
-  let path = location.pathname.toLowerCase();
-window.addEventListener('locationchange', function (event) {
-  path = location.pathname.toLowerCase();
-	console.log("locationchange", path)
-});
+  let path = "";
+  if (typeof window !== 'undefined') {
+    path = location.pathname.toLowerCase();
+    window.addEventListener('locationchange', function (event) {
+      path = location.pathname.toLowerCase();
+      console.log("locationchange", path)
+    });
+    
+  }
 
 </script>
 <style>
