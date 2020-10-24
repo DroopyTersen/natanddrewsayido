@@ -1,0 +1,22 @@
+diff --git a/node_modules/@sveltejs/adapter-static/node_modules/@sveltejs/app-utils/dist/index.js b/node_modules/@sveltejs/adapter-static/node_modules/@sveltejs/app-utils/dist/index.js
+index 3918c51..4410105 100644
+--- a/node_modules/@sveltejs/adapter-static/node_modules/@sveltejs/app-utils/dist/index.js
++++ b/node_modules/@sveltejs/adapter-static/node_modules/@sveltejs/app-utils/dist/index.js
+@@ -2285,7 +2285,7 @@ function render_route(
+ 	context,
+ 	options
+ ) {
+-	const route = options.manifest.endpoints.find(route => route.pattern.test(request.path));
++	const route = options && options.manifest && options.manifest.endpoints ? options.manifest.endpoints.find(route => route.pattern.test(request.path)) : null;
+ 	if (!route) return;
+ 
+ 	return options.load(route).then(async mod => {
+@@ -2490,7 +2490,7 @@ async function prerender({
+ 
+ 	const server_root = path.resolve(dir);
+ 	const root = require(`${server_root}/server/root.js`);
+-	const setup = require(`${server_root}/server/setup.js`);
++	const setup = (stuff) => stuff; // require(`${server_root}/server/setup.js`);
+ 
+ 	async function crawl(path$1) {
+ 		if (seen.has(path$1)) return;

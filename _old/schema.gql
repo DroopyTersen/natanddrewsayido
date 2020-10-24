@@ -1,0 +1,10 @@
+type Guest {
+  code: ID!
+  name: String!
+  surveyRsvp: Int
+  attendanceCount: Int
+}
+
+type Query {
+  guests: [Guest]
+}
