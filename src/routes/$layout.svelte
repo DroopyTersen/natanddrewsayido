@@ -1,5 +1,5 @@
 <script>
-import Header from "../components/Header.svelte";
+import Menu from "../components/Menu/Menu.svelte";
 if (typeof window !== 'undefined') {
     (function(history){
         var pushState = history.pushState;
@@ -15,5 +15,5 @@ if (typeof window !== 'undefined') {
 }
 </script>
 
-<Header/>
+<Menu/>
 <slot></slot>

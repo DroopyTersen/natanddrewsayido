@@ -9,6 +9,7 @@ Wedding website for Natalie and Drew
 - Svelte (super alpha with the evolution of what used to be Sapper)
     - [https://www.npmjs.com/package/create-svelte/v/2.0.0-alpha.15](https://www.npmjs.com/package/create-svelte/v/2.0.0-alpha.15)
     - Builds to a static site
+    - Uses `patch-package` to fix a bug with `@sveltejs/adapter-static`
 - Fauna DB
     - Using the GraphQL API
 - Netlify hosting

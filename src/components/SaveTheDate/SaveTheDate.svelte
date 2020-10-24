@@ -20,7 +20,7 @@
     right: 0;
     left: 0;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.75;
     height: 100%;
   }
 
@@ -30,6 +30,8 @@
     font-size: 1.8rem;
     position: absolute;
     bottom: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
   }
   @media (max-width: 1024px) {
   }
@@ -39,6 +41,7 @@
     }
     .location {
       font-size: 1.5rem;
+    letter-spacing: 2px;
     }
   }
   @media (max-width: 500px) {

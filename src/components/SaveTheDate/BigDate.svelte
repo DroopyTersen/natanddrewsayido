@@ -1,41 +1,22 @@
 <style>
   .date {
+    --size: 12rem;
+    --margin: 6rem;
     margin: 0;
     font-family: var(--fancyFont);
     color: var(--darkBlue);
     font-weight: bold;
     letter-spacing: 0px;
-    font-size: 18rem;
-    line-height: 16rem;
-    margin-top: 6rem;
+    font-size: var(--size);
+    line-height: var(--size);
+    margin: var(--margin) 0;
     text-shadow: 1px 1px 2px rgb(0 0 0 / 16%);
-  }
-
-  .separator {
-    margin: 0 10px;
-    display: none;
   }
 
   @media (max-width:1024px) {
     .date {
-      font-size: 10rem;
-      margin-top: 3rem;
-      line-height: 10rem;
-    }
-  }
-
-  @media (max-width:700px) {
-    .date {
-      font-size: 8rem;
-      margin-top: 3rem;
-      line-height: 8rem;
-    }
-  }
-  @media (max-width:500px) {
-    .date {
-      font-size: 5.6rem;
-      margin-top: 2rem;
-      line-height: 5.6rem;
+      --size: 14vw;
+      --margin: 8vw;
     }
   }
 </style>
