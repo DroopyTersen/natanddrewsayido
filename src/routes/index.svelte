@@ -6,9 +6,7 @@ import Accomodations from "../components/Accomodations.svelte";
 
 </script>
 
-<main>
 	<SaveTheDate/>
 	<IntroBlurb/>
 	<Survey/>
 	<Accomodations/>
-</main>
