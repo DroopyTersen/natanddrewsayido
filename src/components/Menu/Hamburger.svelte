@@ -18,6 +18,8 @@
 		display: flex;
 		padding: 5px;
 		position: relative;
+		
+		background: #ffffffad;
 	}
 	svg {
 		min-height: 24px;

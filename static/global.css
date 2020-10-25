@@ -113,7 +113,9 @@ button:focus {
 pre {
   text-align: left;
 }
-
+img {
+  max-width: 100%;
+}
 .container {
   width: 100%;
   display: flex;
@@ -131,8 +133,11 @@ pre {
   padding: 0 2rem;
   box-sizing: border-box;
 }
-h1 {
+h1,h2,h3,h4,h5 {
   font-family: var(--fancyFont);
   letter-spacing: 2px;
   color: var(--darkBlue);
+}
+h4,h5 {
+  letter-spacing: 1px;
 }

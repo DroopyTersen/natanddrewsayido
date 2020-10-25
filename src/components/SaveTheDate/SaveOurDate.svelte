@@ -1,10 +1,10 @@
 <style>
   .save-our-date {
-    --size: 3rem;
+    --size: 4rem;
     font-family: var(--fancyFont);
     font-weight: 300;
     font-size: var(--size);
-    margin-bottom: var(--size);
+    /* margin-bottom: var(--size); */
     line-height: var(--size);
     letter-spacing: 2px;
     color: var(--greyPurple);

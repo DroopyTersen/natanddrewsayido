@@ -32,33 +32,48 @@
     bottom: 10px;
     letter-spacing: 4px;
     text-transform: uppercase;
+  
   }
-  @media (max-width: 1024px) {
+  .top-signature {
+    display: none;
   }
-  @media (max-width: 700px) {
+
+  @media (max-width: 640px) {
     .save-the-date {
       padding: 5rem 2rem;
+      box-shadow: 1px 1px 4px rgba(0,0,0,.2);
     }
-    .location {
-      font-size: 1.5rem;
-    letter-spacing: 2px;
-    }
+    .top-signature {
+    display: block;
   }
-  @media (max-width: 500px) {
+  :global(body .top-signature > .signature) {
+    --size: 10vw;
+  }
+  .middle-signature {
+    visibility: hidden;
+    height: 30px;
+    display: none;
+  }
     .location {
-      font-size: 1.2rem;
-      margin-top: 0;
+      font-size: 1.4rem;
+    letter-spacing: 2px;
     }
   }
 </style>
 
+<div class='top-signature'>
+  <Signature />
+</div>
 <div class="center save-the-date">
   <img
     src="/images/shadow.jpg"
     class="background-shadow"
     alt="background shadow" />
-  <SaveOurDate />
-  <Signature />
+    <SaveOurDate />
+    <div class='middle-signature'>
+
+      <Signature />
+    </div>
   <BigDate />
 
   <div class="location">Ketchum, ID</div>

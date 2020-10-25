@@ -7,6 +7,7 @@
     justify-content: center;
     font-size: var(--size);
     line-height: var(--size);
+    padding: calc(var(--size) /1.6) 0;
   }
   @media (max-width: 1024px) {
 
@@ -14,7 +15,7 @@
         --size: 14vw;
     }
   }
-</style>
+ </style>
 
 <div class="signature">
   <span>Natalie</span><span style="margin:0 20px">&</span>
