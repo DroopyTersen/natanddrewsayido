@@ -1,3 +1,6 @@
+<script>
+    export let size = "large";
+</script>
 <style>
   .signature {
     --size: 15rem;
@@ -9,6 +12,7 @@
     line-height: var(--size);
     padding: calc(var(--size) /1.6) 0;
   }
+
   @media (max-width: 1024px) {
 
     .signature {
@@ -17,7 +21,7 @@
   }
  </style>
 
-<div class="signature">
+<div class={"signature " + size} >
   <span>Natalie</span><span style="margin:0 20px">&</span>
   <span>Drew</span>
 </div>

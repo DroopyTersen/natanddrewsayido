@@ -6,6 +6,7 @@
   --cursiveFont: "Paris Tonight";
   --greyPurple: #7e7782;
   --darkBlue: #1a324a;
+  --midBlue: #4c6f92;
   --skinPink: #F3EDEB;
   --taupe: #E4E0D9;
   --transparentTaupe: rgba(228, 224, 217, 0.25);
@@ -51,9 +52,11 @@ body {
   font-family: var(--bodyFont);
   font-size: 16px;
 }
-
+body * {
+  box-sizing: border-box;
+}
 a {
-  color: var(--darkBlue);
+  color: var(--midBlue);
   text-decoration: none;
 }
 
@@ -62,7 +65,7 @@ a:hover {
 }
 
 a:visited {
-  color: var(--darkBlue);
+  color: var(--midBlue);
 }
 
 label {
@@ -116,6 +119,7 @@ pre {
 img {
   max-width: 100%;
 }
+
 .container {
   width: 100%;
   display: flex;
@@ -125,10 +129,9 @@ img {
   margin: 0;
 }
 .container > * {
-  max-width: 960px;
+  max-width: 1024px;
   width: 100%;
   flex: 1 1 100%;
-  max-width: 960px;
   width: 100%;
   padding: 0 2rem;
   box-sizing: border-box;
@@ -140,4 +143,11 @@ h1,h2,h3,h4,h5 {
 }
 h4,h5 {
   letter-spacing: 1px;
+}
+
+
+@media (max-width:640px) {
+  main {
+    margin-top: 40px;
+  }
 }

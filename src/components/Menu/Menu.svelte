@@ -1,4 +1,5 @@
 <script>
+  import Signature from "../SaveTheDate/Signature.svelte";
   import Hamburger from "./Hamburger.svelte";
   let open = false;
   let path = "";
@@ -15,7 +16,7 @@
   header {
     font-family: var(--fancyFont);
     padding: 1rem 2rem;
-    max-width: 960px;
+    max-width: 1024px;
     box-sizing: border-box;
     margin: 0 auto;
   }
@@ -93,14 +94,42 @@
       opacity: 1;
     }
   }
+  .mobile-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: none;
+  }
+  :global(body .mobile-header .signature) {
+    font-size: 2.3rem;
+    line-height: 2.3rem;
+    padding: 1rem;
+    color: var(--greyPurple);
+  }
+  @media (max-width: 640px) {
+    .mobile-header {
+      display: block;
+    }
+    .mobile-header.hidden {
+      display: none;
+    }
+  }
 </style>
 
 <header>
+  <div class="mobile-header" class:hidden={path === '/'}>
+    <a href="/">
+      <Signature size="small" />
+    </a>
+  </div>
   <nav class:open>
-    <div class='signature'>Natalie & Drew</div>
+    <div class="signature">Natalie & Drew</div>
     <a
       href="/"
-      class='first'
+      class="first"
       class:active={path === '/'}
       on:click={() => {
         open = false;
