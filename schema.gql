@@ -1,5 +1,5 @@
 type Guest {
-  code: ID!
+  code: String!
   name: String!
   surveyRsvp: Int
   attendanceCount: Int
@@ -7,4 +7,9 @@ type Guest {
 
 type Query {
   guests: [Guest]
+}
+
+type SurveyResponse {
+    name: String!
+    value: Int
 }
