@@ -35,6 +35,7 @@
   header nav > * {
     margin-left: var(--marginSize);
     border-bottom: 2px solid transparent;
+    color: var(--black);
   }
   header nav .first {
     margin-left: 0;

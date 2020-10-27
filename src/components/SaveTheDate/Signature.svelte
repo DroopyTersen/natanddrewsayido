@@ -1,5 +1,6 @@
 <script>
     export let size = "large";
+    export let color = "black";
 </script>
 <style>
   .signature {
@@ -12,6 +13,12 @@
     line-height: var(--size);
     padding: calc(var(--size) /1.6) 0;
   }
+  .black {
+      color: var(--black);
+  }
+  .white {
+      color: var(--white);
+  }
 
   @media (max-width: 1024px) {
 
@@ -21,7 +28,7 @@
   }
  </style>
 
-<div class={"signature " + size} >
+<div class={["signature", size, color].join(" ")} >
   <span>Natalie</span><span style="margin:0 20px">&</span>
   <span>Drew</span>
 </div>

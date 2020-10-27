@@ -7,7 +7,7 @@
     /* margin-bottom: var(--size); */
     line-height: var(--size);
     letter-spacing: 2px;
-    color: var(--greyPurple);
+    color: var(--white);
     text-transform: uppercase;
   }
   .save-our-date span {
