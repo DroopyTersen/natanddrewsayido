@@ -21,7 +21,8 @@ export const submitSurvey = async ({name, value}) => {
         mutation SUBMIT_SURVEY {
             createSurveyResponse( data: {
                 name: "${name}",
-                value:${value}
+                value:${value},
+                timestamp: "${(new Date()).toISOString()}"
             }) {
                 _id
                 name

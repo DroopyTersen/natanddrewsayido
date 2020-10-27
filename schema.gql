@@ -7,9 +7,11 @@ type Guest {
 
 type Query {
   guests: [Guest]
+  surveys: [SurveyResponse]
 }
 
 type SurveyResponse {
     name: String!
-    value: Int
+    value: Int!
+    timestamp: String!
 }
