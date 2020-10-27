@@ -64,22 +64,24 @@
     .location {
       font-size: 1.3rem;
       letter-spacing: 2px;
-    bottom: 1rem;
+      bottom: 1rem;
     }
   }
 </style>
 
+<main>
 
-<div class="center save-the-date">
-  <img
-    src="https://res.cloudinary.com/droopytersen/image/upload/c_scale,f_auto,q_auto,w_2234/v1603771183/natanddrewsayido/wedding-mountains.jpg"
-    class="background-shadow"
-    alt="background shadow" />
-    <div class="save-our-date">Save <span>our</span> Date</div>
-  <!-- <div class="middle-signature">
-    <Signature color="white" />
-  </div> -->
-  <BigDate />
-
-  <div class="location">Ketchum, ID</div>
-</div>
+  <div class="center save-the-date">
+    <img
+      src="https://res.cloudinary.com/droopytersen/image/upload/c_scale,f_auto,q_auto,w_2234/v1603771183/natanddrewsayido/wedding-mountains.jpg"
+      class="background-shadow"
+      alt="background shadow" />
+      <div class="save-our-date">Save <span>our</span> Date</div>
+    <!-- <div class="middle-signature">
+      <Signature color="white" />
+    </div> -->
+    <BigDate />
+  
+    <div class="location">Ketchum, ID</div>
+  </div>
+</main>

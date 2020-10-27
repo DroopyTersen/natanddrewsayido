@@ -87,6 +87,22 @@
   }
 </style>
 
+
+<div class="container">
+    <h5>We're getting married in the Idaho mountains!</h5>
+    <p>
+      We've rented the
+      <a
+        target="_blank"
+        href="https://www.google.com/maps/place/Central+Idaho+4-H+Camp/@43.4691744,-110.0573083,5z/data=!4m5!3m4!1s0x54a90b13a008d653:0xecf2756d0f52897d!8m2!3d43.8087604!4d-114.6129285">Central
+        Idaho 4-H Camp</a>
+      for the weekend, complete with a mountain lodge, and a dozen rustic
+      cabins.
+    </p>
+    
+  </div>
+
+<!--   
 <div class="container">
   <div class="intro-row">
     <div class="pic pic-1">
@@ -117,4 +133,4 @@
       <img src="/images/lodge.png" alt="lodge" />
     </div>
   </div>
-</div>
+</div> -->

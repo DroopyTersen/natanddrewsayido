@@ -19,6 +19,7 @@
     max-width: 1024px;
     box-sizing: border-box;
     margin: 0 auto;
+    justify-content: flex;
   }
   :global(.menu-trigger) {
     display: none !important;
@@ -52,7 +53,7 @@
       position: fixed;
       width: 100%;
       z-index: 6;
-      bottom: 0;
+      top: 0;
     }
     .signature {
       display: block;
@@ -95,15 +96,6 @@
       opacity: 1;
     }
   }
-  .mobile-header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    background: #fff;
-    display: none;
-  }
   :global(body .mobile-header .signature) {
     font-size: 2.3rem;
     line-height: 2.3rem;
@@ -111,17 +103,22 @@
     color: var(--greyPurple);
   }
   @media (max-width: 640px) {
-    .mobile-header {
+    
+    header {
+      position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: none;
       display: block;
-    }
-    .mobile-header.hidden {
-      display: none;
     }
   }
 </style>
 
 <header>
-  <div class="mobile-header" class:hidden={path === '/'}>
+  <div class="mobile-header">
     <a href="/">
       <Signature size="small" />
     </a>

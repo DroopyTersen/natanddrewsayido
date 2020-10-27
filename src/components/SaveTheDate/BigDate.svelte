@@ -13,13 +13,16 @@
     opacity: .6;
   }
   .separator {
-    margin: 0 20px;
+    margin: 0 2rem;
   }
   @media (max-width:640px) {
     .date {
       --size: 18vw;
       margin: 2rem 0;
       /* --margin: 8vw; */
+    }
+    .separator {
+      margin: 0 1rem;
     }
   }
 </style>
