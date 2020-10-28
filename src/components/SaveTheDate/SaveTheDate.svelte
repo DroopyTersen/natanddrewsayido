@@ -21,25 +21,12 @@
     z-index: -1;
     height: 100%;
   }
-
-  .save-our-date {
-    position: absolute;
-    top: 25%;
-    --size: 4rem;
-    font-family: var(--fancyFont);
-    font-weight: 300;
-    font-size: var(--size);
-    /* margin-bottom: var(--size); */
-    line-height: var(--size);
-    letter-spacing: 3px;
+  .cursive {
+    font-family: var(--cursiveFont);
     color: var(--white);
     opacity: .7;
-    text-transform: uppercase;
-  }
-  .save-our-date span {
-    font-style: italic;
-    text-transform: lowercase;
-    letter-spacing: 1px;
+    font-size: 17rem;
+
   }
 
   .location {
@@ -53,6 +40,11 @@
     text-transform: uppercase;
   }
 
+  @media (max-width: 1024px) {
+    .cursive {
+      font-size: 13vw;
+    }
+  }
   @media (max-width: 640px) {
     .save-the-date {
       padding: 5rem 2rem;
@@ -60,9 +52,7 @@
       min-height: 70vw;
 
     }
-    .save-our-date {
-      --size: 6vw;
-    }
+    
     .location {
       font-size: 1.4rem;
       letter-spacing: 2px;
@@ -78,8 +68,11 @@
       src="https://res.cloudinary.com/droopytersen/image/upload/c_scale,f_auto,q_auto,w_2234/v1603771183/natanddrewsayido/wedding-mountains.jpg"
       class="background-image"
       alt="background" />
-      <div class="save-our-date">Save <span>our</span> Date</div>
-    <BigDate />
+      <div class='center'>
+        <div class="cursive">Save the Date</div>
+        <BigDate />
+
+      </div>
   
     <div class="location">Ketchum, ID</div>
   </div>

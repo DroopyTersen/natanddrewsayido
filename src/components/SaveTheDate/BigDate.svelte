@@ -1,6 +1,6 @@
 <style>
   .date {
-    --size: 24rem;
+    --size: 14rem;
     margin: 0;
     font-family: 'Italiana', serif;
     color: var(--white);
@@ -10,17 +10,17 @@
     line-height: var(--size);
     display: flex;
     align-items: center;
-    opacity: .6;
+    opacity: .7;
     position: relative;
-    top: -2vw;
+    top: -4vw;
   }
   .separator {
     margin: 0 2rem;
   }
   @media (max-width:1024px) {
     .date {
-      --size: 18vw;
-      margin: 2rem 0;
+      --size: 12vw;
+      /* margin: 2rem 0; */
       /* --margin: 8vw; */
     }
     .separator {
