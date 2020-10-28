@@ -42,7 +42,7 @@
 
   @media (max-width: 1024px) {
     .cursive {
-      font-size: 13vw;
+      font-size: 9vw;
     }
   }
   @media (max-width: 640px) {

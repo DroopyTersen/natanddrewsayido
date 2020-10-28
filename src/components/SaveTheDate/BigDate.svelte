@@ -19,7 +19,7 @@
   }
   @media (max-width:1024px) {
     .date {
-      --size: 12vw;
+      --size: 19vw;
       /* margin: 2rem 0; */
       /* --margin: 8vw; */
     }
