@@ -15,7 +15,7 @@
   .separator {
     margin: 0 2rem;
   }
-  @media (max-width:640px) {
+  @media (max-width:1024px) {
     .date {
       --size: 18vw;
       margin: 2rem 0;

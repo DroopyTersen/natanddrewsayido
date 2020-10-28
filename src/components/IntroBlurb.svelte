@@ -1,95 +1,10 @@
 <style>
-  .intro-row {
-    display: grid;
-    position: relative;
-    grid-template-columns: 25% 1fr 25%;
-    grid-template-rows: 1fr;
-    gap: 30px;
-    box-sizing: border-box;
-    grid-template-areas: "pic1 content pic2";
-    align-items: start;
-    margin: 30px auto 0;
-  }
-  h5 {
-    margin-top: 20px;
-    font-size: 2.4rem;
-    line-height: 2.4rem;
-  }
-  .main-content {
-    grid-area: content;
-  }
-  .pic {
-    padding: 0;
-  }
-  .pic-1 {
-    grid-area: pic1;
-  }
-  .pic-2 {
-    grid-area: pic2;
-  }
-  .pic {
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
-  .pic img {
-    padding: 20px;
-    box-sizing: border-box;
-    z-index: 1;
-  }
-  .pic-1 img {
-    padding-right: 0;
-  }
-  .pic-2 img {
-    padding-left: 0;
-  }
-  .pic .accent {
-    position: absolute;
-    background: var(--taupe);
-    width: 40px;
-    height: 100%;
-    z-index: 0;
-  }
-  .pic-2 .accent {
-    right: 0px;
-  }
-  .help {
-    margin: 40px 0 0 0;
-    font-size: 1.8rem;
-    line-height: 1.8rem;
-    font-weight: bold;
-    color: #bb433d;
-    /* text-transform: uppercase; */
-    letter-spacing: 1px;
-  }
-  .help-text {
-    font-size: 1.35rem;
-    padding-left: 10px;
-    border-left: 3px solid var(--taupe);
-  }
-  @media (max-width: 1024px) {
-    .intro-row {
-      display: block;
-    }
-    .pic-2 {
-      display: none;
-    }
-    .pic {
-      justify-content: center;
-    }
-    .pic .accent {
-      display: none;
-    }
-    .pic img {
-      padding: 0;
-      margin-bottom: 20px;
-    }
-  }
+
 </style>
 
 
-<div class="container">
-    <h5>We're getting married in the Idaho mountains!</h5>
+<div class="container small-container">
+    <h4>We're getting married in the Idaho mountains!</h4>
     <p>
       We've rented the
       <a

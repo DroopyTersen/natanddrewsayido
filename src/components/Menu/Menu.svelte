@@ -31,6 +31,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    z-index: 0; 
   }
   :global(.menu-trigger) {
     display: none !important;
@@ -42,6 +43,7 @@
     width: 100%;
     justify-content: flex-end;
     font-size: 1.8rem;
+    z-index: 1;
   }
 
   header nav > * {
@@ -106,6 +108,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      z-index: 1;
     }
     header nav > * {
       margin: 2rem 0;

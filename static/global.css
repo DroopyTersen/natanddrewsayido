@@ -116,6 +116,9 @@ img {
   padding: 0 2rem;
   box-sizing: border-box;
 }
+.small-container > * {
+  max-width: 700px;
+}
 h1,h2,h3,h4,h5 {
   font-family: var(--fancyFont);
   letter-spacing: 2px;

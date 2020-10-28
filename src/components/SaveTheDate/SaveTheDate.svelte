@@ -6,11 +6,11 @@
   .save-the-date {
     padding: 8rem 2rem;
     position: relative;
-    min-height: 50vw;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    min-height: 70vh;
   }
-  .background-shadow {
+  .background-image {
     object-fit: cover;
     position: absolute;
     width: 100%;
@@ -31,7 +31,7 @@
     font-size: var(--size);
     /* margin-bottom: var(--size); */
     line-height: var(--size);
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: var(--white);
     opacity: .7;
     text-transform: uppercase;
@@ -57,14 +57,16 @@
     .save-the-date {
       padding: 5rem 2rem;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    min-height: 70vw;
+
     }
     .save-our-date {
-      --size: 5vw;
+      --size: 6vw;
     }
     .location {
-      font-size: 1.3rem;
+      font-size: 1.6rem;
       letter-spacing: 2px;
-      bottom: 1rem;
+      bottom: 1.2rem;
     }
   }
 </style>
@@ -74,12 +76,9 @@
   <div class="center save-the-date">
     <img
       src="https://res.cloudinary.com/droopytersen/image/upload/c_scale,f_auto,q_auto,w_2234/v1603771183/natanddrewsayido/wedding-mountains.jpg"
-      class="background-shadow"
-      alt="background shadow" />
+      class="background-image"
+      alt="background" />
       <div class="save-our-date">Save <span>our</span> Date</div>
-    <!-- <div class="middle-signature">
-      <Signature color="white" />
-    </div> -->
     <BigDate />
   
     <div class="location">Ketchum, ID</div>
