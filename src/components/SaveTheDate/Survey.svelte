@@ -8,7 +8,7 @@
 
   $: validationPrompt = (() => {
      if (!name) {
-         return "Please enter your name"
+         return "Please enter your name."
      }
      if (choice === null) {
          return "Please make a selection to let us know if you'll make it."
@@ -78,9 +78,9 @@
     font-weight: bold;
   }
   .buttons button.active {
-    background: var(--greyPurple);
+    background: var(--black);
     color: white;
-    border-color: var(--greyPurple);
+    border-color: var(--black);
   }
   @media (max-width: 1024px) {
     .buttons {
@@ -174,7 +174,7 @@
     <input type="text" bind:value={name} placeholder="Bill Brasky & Guest" />
   </label>
   {#if validationPrompt && status === "touched"}
-    <p transition:slide>{validationPrompt}</p>
+    <p class='error' transition:slide>{validationPrompt}</p>
   {/if}
   <button
     class="primary"

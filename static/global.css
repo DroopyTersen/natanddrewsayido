@@ -6,13 +6,14 @@
     Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --cursiveFont: "Paris Tonight";
   --greyPurple: #7e7782;
-  --darkBlue: #1a324a;
+  --darkBlue: #52666b;
   --midBlue: #4c6f92;
   --skinPink: #F3EDEB;
   --taupe: #E4E0D9;
   --black: #636667;
   --transparentTaupe: rgba(228, 224, 217, 0.25);
-  --lightGrey: #f3f4f5;
+  --lightGrey: #f3f1f0;
+  --red: #ab3131;
 }
 
 @font-face {
@@ -79,7 +80,7 @@ body button.outline {
   border-color: #888;
 }
 body button.primary {
-  background: var(--black);
+  background: var(--darkBlue);
   font-size: 2rem;
   font-weight: 100;
   letter-spacing: 3px;
@@ -129,7 +130,9 @@ h4,h5 {
   letter-spacing: 1px;
 }
 
-
+.error {
+  color: var(--red);
+}
 @media (max-width:1024px) {
   main {
     margin-top: 50px;
