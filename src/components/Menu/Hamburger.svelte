@@ -17,9 +17,7 @@
 		margin: 0;
 		display: flex;
 		padding: 5px;
-		position: relative;
-		
-		background: #ffffffad;
+		/* background: #ffffffad; */
 	}
 	svg {
 		min-height: 24px;

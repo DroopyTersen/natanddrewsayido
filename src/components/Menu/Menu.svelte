@@ -15,11 +15,22 @@
 <style>
   header {
     font-family: var(--fancyFont);
-    padding: 1rem 2rem;
+    padding: 0 2rem;
     max-width: 1024px;
     box-sizing: border-box;
     margin: 0 auto;
-    justify-content: flex;
+    position: relative;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+  }
+  .header-centered {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
   :global(.menu-trigger) {
     display: none !important;
@@ -45,23 +56,38 @@
   .active {
     border-bottom-color: var(--greyPurple);
   }
-  .signature {
-    display: none;
-  }
-  @media (max-width: 640px) {
+
+  @media (max-width: 1024px) {
     header {
       position: fixed;
-      width: 100%;
-      z-index: 6;
       top: 0;
-    }
-    .signature {
+      right: 0;
+      left: 0;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      background: #fff;
+      display: none;
       display: block;
-      font: 11vw var(--cursiveFont);
+      height: 5rem;
+    }
+    .header-centered {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      align-items: center;
     }
     :global(.menu-trigger) {
       display: flex !important;
       float: right;
+      border: none;
+      margin: 0;
+      display: flex;
+      padding: 5px;
+      position: absolute;
+      background: #ffffffad;
+      right: 2rem;
+      top: 7px;
     }
     header nav {
       background: var(--skinPink);
@@ -96,35 +122,17 @@
       opacity: 1;
     }
   }
-  :global(body .mobile-header .signature) {
-    font-size: 2.3rem;
-    line-height: 2.3rem;
-    padding: 1rem;
-    color: var(--greyPurple);
-  }
   @media (max-width: 640px) {
-    
-    header {
-      position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    background: #fff;
-    display: none;
-      display: block;
-    }
   }
 </style>
 
 <header>
-  <div class="mobile-header">
+  <div class="header-centered">
     <a href="/">
       <Signature size="small" />
     </a>
   </div>
   <nav class:open>
-    <div class="signature">Natalie & Drew</div>
     <a
       href="/"
       class="first"

@@ -19,16 +19,21 @@
   .white {
       color: var(--white);
   }
-
+  .signature.small {
+    --size: 3rem;
+  }
   @media (max-width: 1024px) {
 
     .signature {
         --size: 14vw;
     }
+    .signature.small {
+      --size: 2rem;
+    }
   }
  </style>
 
 <div class={["signature", size, color].join(" ")} >
-  <span>Natalie</span><span style="margin:0 20px">&</span>
+  <span>Natalie</span><span class='ampersand'>&</span>
   <span>Drew</span>
 </div>

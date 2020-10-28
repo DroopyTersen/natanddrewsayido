@@ -126,8 +126,8 @@ h4,h5 {
 }
 
 
-@media (max-width:640px) {
+@media (max-width:1024px) {
   main {
-    margin-top: 40px;
+    margin-top: 50px;
   }
 }
