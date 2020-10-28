@@ -48,7 +48,7 @@
 <style>
   .survey {
     margin-top: 20px;
-    background: var(--skinPink);
+    background: var(--lightGrey);
     width: 100%;
     padding: 20px;
     display: flex;

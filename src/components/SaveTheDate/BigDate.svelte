@@ -2,7 +2,7 @@
   .date {
     --size: 24rem;
     margin: 0;
-    font-family: var(--fancyFont);
+    font-family: 'Italiana', serif;
     color: var(--white);
     font-weight: light;
     letter-spacing: 2px;
@@ -11,6 +11,8 @@
     display: flex;
     align-items: center;
     opacity: .6;
+    position: relative;
+    top: -2vw;
   }
   .separator {
     margin: 0 2rem;

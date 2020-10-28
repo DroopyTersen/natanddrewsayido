@@ -24,7 +24,7 @@
 
   .save-our-date {
     position: absolute;
-    top: 5vw;
+    top: 25%;
     --size: 4rem;
     font-family: var(--fancyFont);
     font-weight: 300;
@@ -57,14 +57,14 @@
     .save-the-date {
       padding: 5rem 2rem;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-    min-height: 70vw;
+      min-height: 70vw;
 
     }
     .save-our-date {
       --size: 6vw;
     }
     .location {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       letter-spacing: 2px;
       bottom: 1.2rem;
     }
