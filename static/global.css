@@ -13,7 +13,7 @@
   --black: #636667;
   --transparentTaupe: rgba(228, 224, 217, 0.25);
   --lightGrey: #f3f1f0;
-  --red: #ab3131;
+  --red: #bb5c5c;
 }
 
 @font-face {
@@ -132,6 +132,7 @@ h4,h5 {
 
 .error {
   color: var(--red);
+  text-transform: uppercase;
 }
 @media (max-width:1024px) {
   main {

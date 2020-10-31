@@ -59,6 +59,9 @@
     border-bottom-color: var(--greyPurple);
   }
 
+  .nav-signature {
+      display: none;
+    }
   @media (max-width: 1024px) {
     header {
       position: fixed;
@@ -92,7 +95,7 @@
       top: 7px;
     }
     header nav {
-      background: var(--skinPink);
+      background: var(--lightGrey);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       position: fixed;
       padding: 20px 20px 60px 20px;
@@ -124,9 +127,12 @@
       transform: translateX(0);
       opacity: 1;
     }
+    .nav-signature {
+      display: block;
+      margin-top: -4rem;
+    }
   }
-  @media (max-width: 640px) {
-  }
+
 </style>
 
 <header>
@@ -136,6 +142,9 @@
     </a>
   </div>
   <nav class:open>
+    <a href="/" class='nav-signature'>
+      <Signature size="large" />
+    </a>
     <a
       href="/"
       class="first"

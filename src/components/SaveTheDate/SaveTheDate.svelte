@@ -49,7 +49,7 @@
     .save-the-date {
       padding: 5rem 2rem;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-      min-height: 70vw;
+      min-height: 40vh;
 
     }
     
