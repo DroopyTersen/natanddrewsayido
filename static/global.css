@@ -1,15 +1,15 @@
 :root {
-  --fancyFont: 'Baskerville', serif;
+  --fancyFont: "Baskerville", serif;
   --fontSize: 18px;
   --white: #fff;
-  --bodyFont: 'Lato',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
-    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --bodyFont: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --cursiveFont: "Paris Tonight";
   --greyPurple: #7e7782;
   --darkBlue: #52666b;
   --midBlue: #4c6f92;
-  --skinPink: #F3EDEB;
-  --taupe: #E4E0D9;
+  --skinPink: #f3edeb;
+  --taupe: #e4e0d9;
   --black: #636667;
   --transparentTaupe: rgba(228, 224, 217, 0.25);
   --lightGrey: #f3f1f0;
@@ -87,12 +87,12 @@ body button.primary {
   text-transform: uppercase;
   font-family: var(--fancyFont);
 }
- ul li {
-   padding-left: 1rem;
- }
- p {
-   max-width: 600px;
- }
+ul li {
+  padding-left: 1rem;
+}
+p {
+  max-width: 600px;
+}
 
 .center {
   display: flex;
@@ -126,12 +126,17 @@ img {
 .small-container > * {
   max-width: 700px;
 }
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: var(--fancyFont);
   letter-spacing: 2px;
   color: var(--darkBlue);
 }
-h4,h5 {
+h4,
+h5 {
   letter-spacing: 1px;
 }
 
@@ -139,8 +144,11 @@ h4,h5 {
   color: var(--red);
   text-transform: uppercase;
 }
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   main {
-    margin-top: 50px;
+    margin-top: 6rem;
+  }
+  main.home {
+    margin-top: 0;
   }
 }

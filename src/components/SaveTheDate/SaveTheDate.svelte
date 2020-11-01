@@ -24,9 +24,8 @@
   .cursive {
     font-family: var(--cursiveFont);
     color: var(--white);
-    opacity: .7;
+    opacity: 0.7;
     font-size: 17rem;
-
   }
 
   .location {
@@ -34,7 +33,7 @@
     bottom: 2rem;
     font: 2rem var(--fancyFont);
     color: var(--white);
-    opacity: .7;
+    opacity: 0.7;
     font-size: 1.8rem;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -44,15 +43,13 @@
     .cursive {
       font-size: 9vw;
     }
-  }
-  @media (max-width: 640px) {
     .save-the-date {
       padding: 5rem 2rem;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-      min-height: 40vh;
-
+      min-height: 100vh;
     }
-    
+  }
+  @media (max-width: 640px) {
     .location {
       font-size: 1.4rem;
       letter-spacing: 2px;
@@ -61,19 +58,15 @@
   }
 </style>
 
-<main>
-
-  <div class="center save-the-date">
-    <img
-      src="https://res.cloudinary.com/droopytersen/image/upload/c_scale,f_auto,q_auto,w_2234/v1603771183/natanddrewsayido/wedding-mountains.jpg"
-      class="background-image"
-      alt="background" />
-      <div class='center'>
-        <div class="cursive">Save the Date</div>
-        <BigDate />
-
-      </div>
-  
-    <div class="location">Ketchum, ID</div>
+<div class="center save-the-date">
+  <img
+    src="https://res.cloudinary.com/droopytersen/image/upload/c_scale,f_auto,q_auto,w_2234/v1603771183/natanddrewsayido/wedding-mountains.jpg"
+    class="background-image"
+    alt="background" />
+  <div class="center">
+    <div class="cursive">Save the Date</div>
+    <BigDate />
   </div>
-</main>
+
+  <div class="location">Ketchum, ID</div>
+</div>

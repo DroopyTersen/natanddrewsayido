@@ -1,6 +1,7 @@
 <script>
   import Signature from "../SaveTheDate/Signature.svelte";
   import Hamburger from "./Hamburger.svelte";
+  export let variant = "white";
   let open = false;
   let path = "";
   if (typeof window !== "undefined") {
@@ -10,6 +11,7 @@
       console.log("locationchange", path);
     });
   }
+  let scrollY = 0;
 </script>
 
 <style>
@@ -31,7 +33,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    z-index: 0; 
+    z-index: 0;
   }
   :global(.menu-trigger) {
     display: none !important;
@@ -60,19 +62,25 @@
   }
 
   .nav-signature {
-      display: none;
-    }
+    display: none;
+  }
   @media (max-width: 1024px) {
     header {
       position: fixed;
       top: 0;
       right: 0;
       left: 0;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
       background: #fff;
       display: none;
       display: block;
-      height: 5rem;
+      height: 6rem;
+      transition: all 0.2s linear;
+    }
+    header.transparent:not(.shadowed) {
+      background: transparent;
+    }
+    header.shadowed {
+      box-shadow: 0 -3px 20px rgba(0, 0, 0, 0.13);
     }
     .header-centered {
       position: relative;
@@ -82,7 +90,7 @@
       height: 100%;
       align-items: center;
     }
-    :global(.menu-trigger) {
+    :global(header .menu-trigger) {
       display: flex !important;
       float: right;
       border: none;
@@ -90,9 +98,19 @@
       display: flex;
       padding: 5px;
       position: absolute;
-      background: #ffffffad;
       right: 2rem;
-      top: 7px;
+      top: 1.2rem;
+      transition: color 0.2s linear;
+      overscroll-behavior: contain;
+    }
+    :global(header.transparent:not(.shadowed) .menu-trigger) {
+      color: var(--white);
+    }
+    :global(header.transparent .menu-trigger.open) {
+      color: var(--black);
+    }
+    :global(header.transparent:not(.shadowed) .signature) {
+      color: var(--white);
     }
     header nav {
       background: var(--lightGrey);
@@ -132,17 +150,19 @@
       margin-top: -4rem;
     }
   }
-
 </style>
 
-<header>
+<svelte:window bind:scrollY />
+<header
+  class:shadowed={scrollY > 0}
+  class:transparent={variant === 'transparent'}>
   <div class="header-centered">
     <a href="/">
       <Signature size="small" />
     </a>
   </div>
   <nav class:open>
-    <a href="/" class='nav-signature'>
+    <a href="/" class="nav-signature">
       <Signature size="large" />
     </a>
     <a

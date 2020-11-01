@@ -1,5 +1,4 @@
 <script>
-import Menu from "../components/Menu/Menu.svelte";
 if (typeof window !== 'undefined') {
     (function(history){
         var pushState = history.pushState;
@@ -15,5 +14,4 @@ if (typeof window !== 'undefined') {
 }
 </script>
 
-<Menu/>
 <slot></slot>

@@ -31,10 +31,10 @@
       --size: 9vw;
     }
     .signature.small {
-      --size: 2rem;
+      --size: 2.45rem;
     }
     .ampersand {
-      margin: 0 0.5rem;
+      margin: 0 0.8rem;
     }
   }
 </style>
