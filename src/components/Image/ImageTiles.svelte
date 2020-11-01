@@ -1,10 +1,7 @@
 <script>
 import Image from "./CloudinaryImage.svelte";
     export let files = [];
-    var touchable = 'ontouchstart' in window ||
-        window.DocumentTouch && document instanceof window.DocumentTouch ||
-        navigator.maxTouchPoints > 0 ||
-        window.navigator.msMaxTouchPoints > 0;
+
 </script>
 
 <style>
@@ -15,11 +12,12 @@ import Image from "./CloudinaryImage.svelte";
      gap: 5px;
      overflow-x: scroll;
      scroll-snap-type: x;
+     opacity: .9;
  }
 
 </style>
 
-<div class='image-tiles' class:touchable>
+<div class='image-tiles'>
     {#each files as filename}
         <Image {filename} />
     {/each}
