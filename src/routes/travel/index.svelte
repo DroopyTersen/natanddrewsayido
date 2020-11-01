@@ -7,7 +7,7 @@
 <main>
   <div class="container">
     <h1>Travel</h1>
-    <p>We be add more information here in the coming weeks.</p>
+    <p>We'll add more information here in the coming weeks.</p>
     <h2>Fly</h2>
     <p>
       You can fly into Boise International Airport. From there, Ketchum is a 2.5
