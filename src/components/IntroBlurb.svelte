@@ -49,7 +49,7 @@
 <div class="container small-container">
   <p class="first-p">
     On
-    <b>June 19, 2020</b>
+    <b>June 19, 2021</b>
     we are getting married in the beautiful Idaho mountains. We've rented the
     <a
       target="_blank"
