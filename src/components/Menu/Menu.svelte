@@ -109,7 +109,7 @@
     :global(header.transparent .menu-trigger.open) {
       color: var(--black);
     }
-    :global(header.transparent:not(.shadowed) .signature) {
+    :global(header.transparent:not(.shadowed) .header-centered .signature) {
       color: var(--white);
     }
     header nav {
