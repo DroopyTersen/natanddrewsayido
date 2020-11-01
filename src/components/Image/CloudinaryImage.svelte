@@ -1,6 +1,6 @@
 <script>
     export let filename = "";
-    export let height = 400;
+    export let height = 500;
     export let alt = "Natalie and Drew";
     $: thumbnail = `https://res.cloudinary.com/droopytersen/image/upload/c_scale,h_${height},q_auto:good/v1604188401/natanddrewsayido/us/${filename}`;
     $: full = `https://res.cloudinary.com/droopytersen/image/upload/c_scale,q_auto:good/v1604188401/natanddrewsayido/us/${filename}`

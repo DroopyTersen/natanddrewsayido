@@ -40,7 +40,7 @@
 </div>
 <div class="container" style="margin-bottom: 5rem;">
   <ImageTiles
-    files={['proposal.jpg', 'iceland-hotspring.jpg', 'diving.jpg', 'iceland.jpg', 'hammock2.jpg', 'glacier2.jpg', 'bryce.jpg', 'sawtooths1.jpg', 'badlands.jpg']} />
+    files={['proposal.jpg', 'iceland-hotspring.jpg', 'diving.jpg', "brads-wedding.jpg", 'iceland.jpg', 'hammock2.jpg', 'glacier2.jpg', "proposal2.jpg", 'bryce.jpg', 'sawtooths1.jpg', "tetons1.jpg", 'badlands.jpg']} />
 </div>
 <div class="container small-container">
   <p>

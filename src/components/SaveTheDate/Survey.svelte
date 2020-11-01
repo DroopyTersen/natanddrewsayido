@@ -82,6 +82,10 @@
     color: white;
     border-color: var(--black);
   }
+  label {
+    width: 400px;
+    max-width: 100%;
+  }
   @media (max-width: 1024px) {
     .buttons {
       grid-template-columns: 1fr;
@@ -170,8 +174,9 @@
 
   </div>
   <label class="name">
-    Who are you? Families and plus ones are welcome.<br />
-    <input type="text" bind:value={name} placeholder="Bill Brasky & Guest" />
+    Who are you? <br/>
+    <span style='font-size: .9em'>Families and plus ones are welcome.</span><br />
+    <input type="text" bind:value={name} placeholder="Enter your name" />
   </label>
   {#if validationPrompt && status === "touched"}
     <p class='error' transition:slide>{validationPrompt}</p>
