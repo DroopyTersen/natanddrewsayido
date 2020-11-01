@@ -87,7 +87,12 @@ body button.primary {
   text-transform: uppercase;
   font-family: var(--fancyFont);
 }
-
+ ul li {
+   padding-left: 1rem;
+ }
+ p {
+   max-width: 600px;
+ }
 
 .center {
   display: flex;

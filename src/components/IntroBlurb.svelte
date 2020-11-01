@@ -52,7 +52,7 @@
     for the weekend, complete with a mountain lodge, and a dozen rustic cabins.
   </p>
   <div class="images">
-    <img load="lazy" alt="Ketchum" class="camp" src="/images/ketchum1.jpg" />
+    <!-- <img load="lazy" alt="Ketchum" class="camp" src="/images/ketchum1.jpg" /> -->
     <img load="lazy" alt="4-h Camp" class="camp" src="/images/camp.png" />
   </div>
 </div>

@@ -11,8 +11,10 @@ import Image from "./CloudinaryImage.svelte";
      grid-auto-flow:column;  
      gap: 5px;
      overflow-x: scroll;
-     scroll-snap-type: x;
+     /* scroll-snap-type: x; */
      opacity: .9;
+     overscroll-behavior: contain;
+     overflow-y: hidden;
  }
 
 </style>
