@@ -1,7 +1,9 @@
 <script>
     export let filename = "";
     export let height = 200;
-    export let alt = "Natalie and Drew"
+    export let alt = "Natalie and Drew";
+    $: thumbnail = `https://res.cloudinary.com/droopytersen/image/upload/c_scale,h_${height},q_auto:good/v1604188401/natanddrewsayido/us/${filename}`;
+    $: full = `https://res.cloudinary.com/droopytersen/image/upload/c_scale,q_auto:good/v1604188401/natanddrewsayido/us/${filename}`
 </script>
 
 <style>
@@ -19,5 +21,13 @@
 </style>
 
 <div class='image-tile'>
-    <img loading="lazy" {alt} src={`https://res.cloudinary.com/droopytersen/image/upload/c_scale,h_${height},q_auto:good/v1604188401/natanddrewsayido/us/${filename}`}>
+    <a href={full} target="_blank">
+        <img loading="lazy" {alt} src={thumbnail}>
+    </a>
 </div>
+<!-- {#if showFullscreen}
+    <div class='fullscreen'>
+        <button class='close-button' on:click={() => showFullscreen = false}>Close</button>
+        <img loading='lazy' {alt} src={`https://res.cloudinary.com/droopytersen/image/upload/c_scale,q_auto:good/v1604188401/natanddrewsayido/us/${filename}`}>
+    </div>
+{/if} -->
