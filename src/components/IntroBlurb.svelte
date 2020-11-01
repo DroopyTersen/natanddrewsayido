@@ -4,9 +4,10 @@
 
 <style>
   h3 {
-    --size: 3rem;
+    --size: 2.8rem;
     /* text-align: center; */
     margin: 8rem 0;
+    letter-spacing: 1.5px;
     font-size: var(--size);
   }
   p {
