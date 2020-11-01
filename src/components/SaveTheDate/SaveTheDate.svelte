@@ -1,5 +1,6 @@
 <script>
   import BigDate from "./BigDate.svelte";
+  let scrollY = 0;
 </script>
 
 <style>
@@ -40,6 +41,9 @@
   }
 
   @media (max-width: 1024px) {
+    .location:not(.scrolled) {
+      position: fixed;
+    }
     .cursive {
       font-size: 9vw;
     }
@@ -53,10 +57,11 @@
     .location {
       font-size: 1.4rem;
       letter-spacing: 2px;
-      bottom: 1.2rem;
     }
   }
 </style>
+
+<svelte:window bind:scrollY />
 
 <div class="center save-the-date">
   <img
@@ -68,5 +73,5 @@
     <BigDate />
   </div>
 
-  <div class="location">Ketchum, ID</div>
+  <div class="location" class:scrolled={scrollY > 0}>Ketchum, ID</div>
 </div>
