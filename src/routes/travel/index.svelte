@@ -4,6 +4,9 @@
 </script>
 
 <Menu />
+<svelte:head>
+  <title>Travel</title>
+</svelte:head>
 <main>
   <div class="container">
     <h1>Travel</h1>
