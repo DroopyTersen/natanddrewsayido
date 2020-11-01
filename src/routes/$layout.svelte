@@ -14,7 +14,4 @@
   }
 </script>
 
-<svelte:head>
-  <title>06/19/2021</title>
-</svelte:head>
 <slot />

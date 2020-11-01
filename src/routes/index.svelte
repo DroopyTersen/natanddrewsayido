@@ -9,7 +9,6 @@
 
 <Menu variant="transparent" />
 <svelte:head>
-  <link rel="icon" type="image/svg+xml" href="/images/ring.svg" />
   <title>06/19/21</title>
 </svelte:head>
 <main class="home">
