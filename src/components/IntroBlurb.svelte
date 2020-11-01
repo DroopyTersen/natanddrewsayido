@@ -60,7 +60,11 @@
   </p>
   <div class="images">
     <!-- <img load="lazy" alt="Ketchum" class="camp" src="/images/ketchum1.jpg" /> -->
-    <img load="lazy" alt="4-h Camp" class="camp" src="/images/camp.png" />
+    <img
+      load="lazy"
+      alt="4-h Camp"
+      class="camp"
+      src="https://res.cloudinary.com/droopytersen/image/upload/q_auto:best/v1604263589/natanddrewsayido/camp.jpg" />
   </div>
 </div>
 <div class="container small-container">
