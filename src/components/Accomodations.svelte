@@ -19,12 +19,12 @@
 </style>
 
 <div class="container pitch">
-  <h2>Accomodations</h2>
+  <h2 id="accomodations">Accomodations</h2>
 
   <div class="cards">
     <div class="card">
       <div class="card-header">
-        <h4>Summer Camp Style</h4>
+        <h4 id="summer-camp">Summer Camp Style</h4>
       </div>
       <div class="card-body">
         <img src="/images/bunks.jpg" alt="bunks" />

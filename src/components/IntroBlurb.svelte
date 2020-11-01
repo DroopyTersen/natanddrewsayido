@@ -44,7 +44,7 @@
 </div>
 <div class="container">
   <ImageTiles
-    files={['proposal.jpg', 'iceland-hotspring.jpg', 'diving.jpg', 'brads-wedding.jpg', 'iceland.jpg', 'hammock2.jpg', 'glacier2.jpg', 'proposal2.jpg', 'bryce.jpg', 'sawtooths1.jpg', 'tetons1.jpg', 'badlands.jpg']} />
+    files={['glacier-mountains.jpg', 'diving.jpg', 'proposal.jpg', 'iceland.jpg', 'brads-wedding.jpg', 'hammock2.jpg', 'proposal2.jpg', 'bryce.jpg', 'iceland-hotspring.jpg', 'sawtooths1.jpg', 'tetons1.jpg', 'badlands.jpg']} />
 </div>
 <div class="container small-container">
   <p class="first-p">
@@ -55,7 +55,8 @@
       target="_blank"
       href="https://www.google.com/maps/place/Central+Idaho+4-H+Camp/@43.4691744,-110.0573083,5z/data=!4m5!3m4!1s0x54a90b13a008d653:0xecf2756d0f52897d!8m2!3d43.8087604!4d-114.6129285">Central
       Idaho 4-H Camp</a>
-    for the weekend, complete with a mountain lodge, and a dozen rustic cabins.
+    for the weekend, complete with a mountain lodge, and a
+    <a href="/travel#accomodations">dozen rustic cabins</a>.
   </p>
   <div class="images">
     <!-- <img load="lazy" alt="Ketchum" class="camp" src="/images/ketchum1.jpg" /> -->

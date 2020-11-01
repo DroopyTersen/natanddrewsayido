@@ -45,7 +45,7 @@
       position: fixed;
     }
     .cursive {
-      font-size: 9vw;
+      font-size: 11vw;
     }
     .save-the-date {
       padding: 5rem 2rem;
