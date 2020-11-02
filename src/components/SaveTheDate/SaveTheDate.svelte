@@ -54,6 +54,12 @@
     }
   }
   @media (max-width: 640px) {
+    .save-the-date .center {
+      margin-top: -4rem;
+    }
+    .cursive {
+      margin-bottom: 2rem;
+    }
     .location {
       font-size: 1.4rem;
       letter-spacing: 2px;

@@ -27,6 +27,11 @@
       margin: 0 1rem;
     }
   }
+  @media (max-width: 640px) {
+    .date {
+      letter-spacing: .5px;
+    }
+  }
 </style>
 
 <h1 class="date">
