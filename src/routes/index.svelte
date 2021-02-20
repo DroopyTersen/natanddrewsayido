@@ -8,9 +8,9 @@
 </script>
 
 <Menu variant="transparent" />
-<svelte:head>
+<!-- <svelte:head>
   <title>06/19/21</title>
-</svelte:head>
+</svelte:head> -->
 <main class="home">
   <SaveTheDate />
   <IntroBlurb />
