@@ -44,7 +44,7 @@
 </div>
 <div class="container">
   <ImageTiles
-    files={['glacier-mountains.jpg', 'diving.jpg', 'proposal.jpg', 'iceland.jpg', 'brads-wedding.jpg', 'hammock2.jpg', 'proposal2.jpg', 'bryce.jpg', 'iceland-hotspring.jpg', 'sawtooths1.jpg', 'tetons1.jpg', 'badlands.jpg']} />
+    files={['engagement1.jpg', 'engagement3.jpg', 'engagement2.jpg', 'engagement4.jpg', 'glacier-mountains.jpg', 'diving.jpg', 'proposal.jpg', 'iceland.jpg', 'brads-wedding.jpg', 'hammock2.jpg', 'proposal2.jpg', 'bryce.jpg', 'iceland-hotspring.jpg', 'sawtooths1.jpg', 'tetons1.jpg', 'badlands.jpg']} />
 </div>
 <div class="container small-container">
   <p class="first-p">
