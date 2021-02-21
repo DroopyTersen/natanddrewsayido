@@ -40,11 +40,11 @@ let doIt = async () => {
     .map((g) => {
       let [lookup_id] = g.address.split(" ");
       return {
-        name: g.name,
+        name: g.rsvp_name || g.name,
         lookup_id,
       };
     });
-
+  // console.log(JSON.stringify(guests, null, 2));
   let result = await hasuraRequest(INSERT_GUESTS, { guests });
   console.log(JSON.stringify(result, null, 2));
 };

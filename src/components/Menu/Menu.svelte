@@ -14,6 +14,25 @@
   let scrollY = 0;
 </script>
 
+<svelte:window bind:scrollY />
+<header
+  class:shadowed={scrollY > 0}
+  class:transparent={variant === "transparent"}
+>
+  <nav class:open>
+    <a href="/" class="nav-signature">
+      <Signature size="small" />
+    </a>
+    <a class:active={path === "/rsvp"} href="/rsvp">Rsvp</a>
+    <a class:active={path === "/travel"} href="/travel">Travel</a>
+
+    <a class:active={path === "/thingstodo"} href="/thingstodo">Things to do</a>
+    <a class:active={path === "/registry"} href="/registry">Registry</a>
+  </nav>
+
+  <Hamburger bind:open className="hamburger" />
+</header>
+
 <style>
   header {
     font-family: var(--fancyFont);
@@ -27,14 +46,6 @@
     align-items: center;
     z-index: 1;
   }
-  .header-centered {
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    z-index: 0;
-  }
   :global(.menu-trigger) {
     display: none !important;
   }
@@ -44,6 +55,7 @@
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    align-items: center;
     font-size: 1.8rem;
     z-index: 1;
   }
@@ -53,16 +65,14 @@
     border-bottom: 2px solid transparent;
     color: var(--black);
   }
-  header nav .first {
-    margin-left: 0;
-    margin-right: auto;
-  }
   .active {
     border-bottom-color: var(--greyPurple);
   }
 
   .nav-signature {
-    display: none;
+    margin-left: 0;
+    margin-right: auto;
+    /* display: none; */
   }
   @media (max-width: 1024px) {
     header {
@@ -81,14 +91,6 @@
     }
     header.shadowed {
       box-shadow: 0 -3px 20px rgba(0, 0, 0, 0.13);
-    }
-    .header-centered {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      height: 100%;
-      align-items: center;
     }
     :global(header .menu-trigger) {
       display: flex !important;
@@ -135,9 +137,6 @@
       margin: 2rem 0;
       font-size: 2.3rem;
     }
-    header nav > .first {
-      margin-right: 0;
-    }
     .active {
       border-bottom-color: transparent;
     }
@@ -147,51 +146,7 @@
     }
     .nav-signature {
       display: block;
-      margin-top: -4rem;
+      margin: 0 auto;
     }
   }
 </style>
-
-<svelte:window bind:scrollY />
-<header
-  class:shadowed={scrollY > 0}
-  class:transparent={variant === 'transparent'}>
-  <div class="header-centered">
-    <a href="/">
-      <Signature size="small" />
-    </a>
-  </div>
-  <nav class:open>
-    <a href="/" class="nav-signature">
-      <Signature size="large" />
-    </a>
-    <a
-      href="/"
-      class="first"
-      class:active={path === '/'}
-      on:click={() => {
-        open = false;
-      }}>Save our Date</a>
-    <a
-      class:active={path === '/travel'}
-      on:click={() => {
-        open = false;
-      }}
-      href="/travel">Travel</a>
-
-    <a
-      class:active={path === '/thingstodo'}
-      on:click={() => {
-        open = false;
-      }}
-      href="/thingstodo">Things to do</a>
-    <a
-      class:active={path === '/registry'}
-      on:click={() => {
-        open = false;
-      }}
-      href="/registry">Registry</a>
-  </nav>
-
-  <Hamburger bind:open className="hamburger" />
-</header>
