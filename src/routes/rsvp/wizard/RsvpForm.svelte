@@ -70,10 +70,11 @@
       </div>
     {/if}
 
-    <div className="actions">
-      <button type="button" class="outline" on:click={cancel}>Start Over</button
+    <div class="row">
+      <button class="col-6 primary">Send Rsvp</button>
+      <button type="button" class="col outline" on:click={cancel}
+        >Start Over</button
       >
-      <button class="primary">Send Rsvp</button>
     </div>
   </fieldset>
 </form>
