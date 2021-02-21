@@ -18,7 +18,13 @@
     <fieldset {disabled}>
       <label class="name">
         Street number <br />
-        <input type="text" bind:value={streetnumber} required />
+        <input
+          type="number"
+          inputmode="numeric"
+          pattern="[0-9]*"
+          bind:value={streetnumber}
+          required
+        />
         <br />
       </label>
       <p class="example">

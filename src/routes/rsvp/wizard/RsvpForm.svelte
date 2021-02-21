@@ -49,7 +49,13 @@
     {#if isAttending}
       <div class="form-group">
         <label for="attendee_count">How many of you?</label>
-        <input type="number" bind:value={numGuests} required={isAttending} />
+        <input
+          type="number"
+          inputmode="numeric"
+          pattern="[0-9]*"
+          bind:value={numGuests}
+          required={isAttending}
+        />
       </div>
 
       <div class="form-group">
