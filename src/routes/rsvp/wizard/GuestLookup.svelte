@@ -7,7 +7,7 @@
     e.preventDefault();
     console.log(streetnumber);
     if (streetnumber && onLookup) {
-      onLookup(streetnumber.split(" ")[0]);
+      onLookup((streetnumber + "").split(" ")[0]);
     }
   };
 </script>
