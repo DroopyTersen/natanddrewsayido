@@ -3,7 +3,6 @@
   import { interpret } from "xstate";
   import rsvpMachine from "./rsvpMachine";
   import ChooseGuest from "./wizard/ChooseGuest.svelte";
-  import { space } from "svelte/internal";
   import ResponseDisplay from "./wizard/ResponseDisplay.svelte";
   import RsvpForm from "./wizard/RsvpForm.svelte";
 
@@ -40,7 +39,7 @@
   {:else if current.value === "submitting"}
     <h4>Submitting your response...</h4>
   {:else if current.value === "responded"}
-    <ResponseDisplay guest={current?.context?.guest} />
+    <ResponseDisplay guest={current.context.guest || {}} />
     <button class="primary" on:click={() => send("START_OVER")}
       >Start over</button
     >

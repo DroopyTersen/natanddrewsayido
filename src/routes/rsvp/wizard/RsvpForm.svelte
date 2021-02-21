@@ -1,5 +1,5 @@
 <script>
-  export let guest;
+  export let guest = {};
   export let submit;
   export let cancel;
 
