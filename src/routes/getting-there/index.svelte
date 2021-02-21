@@ -82,8 +82,7 @@
           There are a 2 ways to get to the venue from Boise. We highly recommend
           the Hwy 55 way. Its 20 mins longer but WAAAY more scenic! See it <a
             target="_blank"
-            href="https://www.google.com/maps/dir/2320+W+Bella+St,+Boise,+ID+83702,+USA/Central+Idaho+4-H+Camp,+4-H+Camp+Rd,+Ketchum,+ID/@43.6587681,-115.2859804,9z/data=!4m9!4m8!1m2!1m1!1s0x54aef8d448efe08d:0xd6d56110fd3a37ab!1m2!1m1!1s0x54a99d51fd348c9d:0xe3ccadf721d07c1b!3e0!5i2"
-            >here on Google Maps</a
+            href="https://goo.gl/maps/YPw3BexTtqDX7Njd6">here on Google Maps</a
           >
         </li>
         <li>
@@ -99,11 +98,11 @@
     <h2 id="roadtrip">Roadtrip</h2>
     <div class="side-by-side-images">
       <img
-        src="https://lh3.googleusercontent.com/acHpNhK0Y2A4PGNzFIc6V2h1HyyryUdkNP29BFu2RQoDT4BB5rvDAqql3uuuFcjlqDZzB1DAh_A7OGPJwpA1t6Zw9Mt0RCd4rhR__TAA9DqXWaaHf8h4DJMQ-TzZI8bV0xrCxHBC8rRhT0I5esraUIsa4ZxSFn0j3bV2-vxX6rrcaP9nm7nibSZjM02U_yRqN9h-i9UQ6jQ5WAOhigqZlKON2Yt2PxE2hUv9EdrU0VMUPeq-m1grSxAE-ylqb5-YAhrcj5mNQpEr-wtWdrC-Gqfrzlp6zxLVQ07XpVwr3XYB5vO4qFrYKVwwrWDqm9yWyEFgbzc2yG8CRmLcmwkiIP1RiLtUUliWVArhM1jcJoywNVcjqlY82U3Rk_6NznzRNFJ4Kgic0FzcwsUDYL-o6ZD7BR17l4l2eXZru_qUAmkEHRGqnKbVoRGLyx9MPnZP8rLvByUkuEprXOpKbS1X0dz2uGom5yWNKMttP2OdFm34lbEc0WLGa0BKQC5mfYymKtLKocozQTQNnosxO-jGlMZdlcChylAaUZzzcRBxCz3h3r-6up3YD8M4c9RhK9RnrTdLiwxlARuAhxUkQaeWAVLfil-6Ee1cLZ0OmY9vx9v6K2qa9ofDAD-uyMd26MND545MuGTz6Z-dniyTHUTxEF3Aeli0-aTbrIj9w3WPf3SHxCP-UkvjwAUWORZ88Q=w703-h937-no?authuser=0"
+        src="https://res.cloudinary.com/droopytersen/image/upload/q_auto:good/v1613939548/natanddrewsayido/theo-in-truck.jpg"
         alt="Theo in truck"
       />
       <img
-        src="https://lh3.googleusercontent.com/aENIJc40U24JTXpbmg9cGLGifXHTb31_55-KkmU4L7vJoEqeqAZkGlCOBC2DkgQ_ZoErBdRojg1NGU7F3nOpPPydWWeu2abx2JH6TOebtVTZXvXVgEB9qkrSJO_KpNCvT1nSSS6hUEKxEAnDVEHqLqfvYTcxlFYj9LrFbUSajETikrI1VsMvyB_6Vj0wtZwDGCaeqLUkRPfUyvWK4dzljfB7B_CKpOkEp_x1DAlSCQG39y8DPIxx-WOcMgBHA-8NQTfDm2vTk7TKuTd7OCI5URiqMUM70DFOLdklopVIHYbtKyEmErWP_e2TReYvERm52N6v248H5EGqim3TgaQHMp_9G9YwAcmeNxutR1at524X5-iRC79hJcM99xMI5VpjscKcuckCn1U_mKtyDy8cgGo0b__Y2leYzzZ7PAUYjgu1jVuhQFc4OsmCsQRJyJ3oj0ktWfeFWkiIgOtZEjTA1b0L7CAKahlEITLNCZoeD8gSEty1TH2tHaXgw3h7UvjbLFfmwv3aqeW03Qx-p4XSgycp8Hd7JXnk1Nrjtu1nA_9PQmWFTuZA66iekQV6hLrKyzFZWwj_B704ZhJhXC5-XeVQNDJxbKX-_BCjZjpiZxKNj4o_iothyUmkXXw3eQXjIh_WaoUlUUzTnus4QaPwZiepHSP2zHfwXzXqFonuh8P45wiUf2l2fv8ma3KSVg=w1300-h937-no?authuser=0"
+        src="https://res.cloudinary.com/droopytersen/image/upload/q_auto:good/v1613939551/natanddrewsayido/teton-morning.jpg"
         alt="Tetons"
       />
     </div>
@@ -148,8 +147,8 @@
           </li>
         </ul>
         <li>
-          <b>On the way back to Wisconsin</b>, go Ketchum ➤ Bozeman ➤ Rapid
-          City, SD ➤ Wisconsin
+          <b>On the way back to Wisconsin</b>, go Ketchum ➤ Big Sky/Yellowstone
+          ➤ Bozeman ➤ Rapid City, SD ➤ Wisconsin
           <ul>
             <li>
               The mountain views looking East from the Bozeman area are great!
