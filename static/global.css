@@ -93,9 +93,22 @@ body button.primary {
   text-transform: uppercase;
   font-family: var(--fancyFont);
 }
-ul li {
+ul {
+  list-style: circle outside;
+  padding-left: 2rem;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1rem 0 1rem 1rem;
+  font-size: 95%;
   padding-left: 1rem;
 }
+ol {
+  padding-left: 1rem;
+}
+
 p {
   max-width: 600px;
 }

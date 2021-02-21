@@ -29,8 +29,16 @@
       <Signature size="small" />
     </a>
     <a class:active={path === "/rsvp"} href="/rsvp">Rsvp</a>
-    <a class:active={path === "/travel"} href="/travel">Travel</a>
+    <a class:active={path === "/getting-there"} href="/getting-there"
+      >Getting there</a
+    >
+    <a class:active={path === "/accomodations"} href="/accomodations"
+      >Accomodations</a
+    >
 
+    <a class:active={path === "/thingstoknow"} href="/thingstoknow"
+      >Things to know</a
+    >
     <a class:active={path === "/thingstodo"} href="/thingstodo">Things to do</a>
     <a class:active={path === "/registry"} href="/registry">Registry</a>
   </nav>
