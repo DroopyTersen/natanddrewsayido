@@ -19,6 +19,11 @@
   class:shadowed={scrollY > 0}
   class:transparent={variant === "transparent"}
 >
+  <div class="header-centered">
+    <a href="/">
+      <Signature size="small" />
+    </a>
+  </div>
   <nav class:open>
     <a href="/" class="nav-signature">
       <Signature size="small" />
@@ -49,7 +54,9 @@
   :global(.menu-trigger) {
     display: none !important;
   }
-
+  .header-centered {
+    display: none;
+  }
   header nav {
     --marginSize: 2rem;
     display: flex;
@@ -85,6 +92,14 @@
       display: block;
       height: 6rem;
       transition: all 0.2s linear;
+    }
+    .header-centered {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      align-items: center;
     }
     header.transparent:not(.shadowed) {
       background: transparent;
