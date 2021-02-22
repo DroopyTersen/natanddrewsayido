@@ -52,6 +52,7 @@
           Enough of that negative stuff. We'll all be fine and the area is
           gorgeous. You are welcome to arrive early and hang out at the camp any
           time between Friday noon and Sunday 9am.
+          <br />
           <img
             alt="camp-collage"
             src="https://res.cloudinary.com/droopytersen/image/upload/v1613956079/natanddrewsayido/4h-camp.jpg"
