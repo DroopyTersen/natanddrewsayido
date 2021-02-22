@@ -28,8 +28,8 @@
       <b>The Venue</b>
       <ul>
         <li>
-          Don't count on cell coverage at the venue. You can definitely get a
-          signal 20 minutes away in Ketchum.
+          Don't count on cell coverage at the venue. You should easily get a
+          signal in Ketchum though.
         </li>
         <li>
           The <a href="/accomodations#cabins">guest cabins</a> have electricity and
@@ -37,7 +37,7 @@
         </li>
         <li>
           There is a "bathroom building" in the middle of the camp. It's nothing
-          fancy but it's indoor plumbing with toilets and showers.
+          fancy, but it's indoor plumbing with toilets and showers.
           Unfortunately, there aren't bathrooms in the guest cabins or lodge.
           <img
             src="https://res.cloudinary.com/droopytersen/image/upload/v1613956079/natanddrewsayido/bathrooms.jpg"
@@ -49,9 +49,9 @@
           for June. Expect upper 60's during the day and upper 30's at night.
         </li>
         <li>
-          Enough of the negative stuff. We'll all be fine, because the area is
-          gorgeous. You are welcome to arrive and hang out at the camp any time
-          between Friday 10am and Sunday 9am.
+          Enough of that negative stuff. We'll all be fine and the area is
+          gorgeous. You are welcome to arrive early and hang out at the camp any
+          time between Friday noon and Sunday 9am.
           <img
             alt="camp-collage"
             src="https://res.cloudinary.com/droopytersen/image/upload/v1613956079/natanddrewsayido/4h-camp.jpg"

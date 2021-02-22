@@ -27,7 +27,7 @@
     <div>
       <h3 id="cabins">Camp Cabins</h3>
 
-      <p><em>Pretends it's a weekend away at summer camp.</em></p>
+      <p><em>Pretend it's a weekend away at summer camp.</em></p>
       <p>
         At the venue there are 12 cabins that each have a dozen twin size bunks.
         <b>These are free</b> for anyone to use from Friday (6/18) at noon to Sunday
@@ -44,10 +44,9 @@
         />
       </div>
       <p>
-        The cabins have lights and electricity in the cabins, but <b
-          >they aren't heated</b
-        >. Temperatures outside will probably drop into the high 30's at night
-        (high 60's during the day). That said, with a few bodies in there and a
+        The cabins have lights and electricity, but <b>they aren't heated</b>.
+        Temperatures outside will probably drop into the upper 30's at night
+        (upper 60's during the day). That said, with a few bodies in there and a
         solid sleeping bag (or a few thick blankets) it could be a fun "summer
         camp" style experience.
       </p>
@@ -69,8 +68,8 @@
       </p>
 
       <p>
-        About 20 minutes south of Ketchum is Hailey which might have more
-        affordable options, but be 40 minutes from the venue.
+        About 20 minutes south of Ketchum is Hailey which may have more
+        affordable options, but would be 40 minutes from the venue.
       </p>
     </div>
     <div>
