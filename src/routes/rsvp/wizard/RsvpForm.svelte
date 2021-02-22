@@ -63,10 +63,15 @@
         <textarea
           class="form-input"
           name="notes"
-          placeholder="Are you going to stay in the cabins? Dietary restrictions? What days do you plan to arrive and leave? You flying or driving?"
+          placeholder="Optionally, let us know your plans"
           rows="8"
           bind:value={notes}
         />
+        <p class="hint">
+          Things like... Dietary restrictions? Are you going to stay in the
+          cabins? What days do you plan to arrive and leave? You flying or
+          driving?
+        </p>
       </div>
     {/if}
 
@@ -99,5 +104,10 @@
     form {
       width: 100%;
     }
+  }
+  .hint {
+    margin-top: -1rem;
+    font-size: 0.9em;
+    color: var(--greyPurple);
   }
 </style>
