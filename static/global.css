@@ -95,7 +95,7 @@ body button.primary {
 }
 ul {
   list-style: circle outside;
-  padding-left: 2rem;
+  padding-left: 3rem;
 }
 ul ul,
 ul ol,
@@ -110,7 +110,7 @@ ol {
 }
 
 p {
-  max-width: 600px;
+  /* max-width: 600px; */
 }
 
 .center {
@@ -185,4 +185,20 @@ fieldset {
 }
 mt-0 {
   margin-top: 0;
+}
+
+.side-by-side-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.side-by-side-images img {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .side-by-side-images {
+    grid-template-columns: 1fr;
+  }
 }

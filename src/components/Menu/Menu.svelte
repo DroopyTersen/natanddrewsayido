@@ -66,7 +66,7 @@
     display: none;
   }
   header nav {
-    --marginSize: 2rem;
+    --marginSize: 3rem;
     display: flex;
     width: 100%;
     justify-content: flex-end;
@@ -157,7 +157,7 @@
       z-index: 1;
     }
     header nav > * {
-      margin: 2rem 0;
+      margin: 1.5rem 0;
       font-size: 2.3rem;
     }
     .active {

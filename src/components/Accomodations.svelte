@@ -1,25 +1,5 @@
-<style>
-  .pitch {
-    margin-bottom: 50px;
-  }
-
-  .cards {
-    overflow: initial;
-  }
-  .card-header h4 {
-    margin: 0;
-  }
-  .card-body img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 4px;
-    max-height: 65vw;
-  }
-</style>
-
 <div class="container pitch">
-  <h2 id="accomodations">Accomodations</h2>
+  <h1 id="accomodations">Accomodations</h1>
 
   <div class="cards">
     <div class="card">
@@ -74,3 +54,23 @@
     </div>
   </div>
 </div>
+
+<style>
+  .pitch {
+    margin-bottom: 50px;
+  }
+
+  .cards {
+    overflow: initial;
+  }
+  .card-header h4 {
+    margin: 0;
+  }
+  .card-body img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 4px;
+    max-height: 65vw;
+  }
+</style>

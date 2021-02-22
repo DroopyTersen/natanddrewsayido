@@ -38,7 +38,7 @@
       >Central Idaho 4-H Camp</a
     >
     for the weekend, complete with a mountain lodge, and a
-    <a href="/travel#accomodations">dozen rustic cabins</a>.
+    <a href="/accomodations#cabins">dozen rustic cabins</a>.
   </p>
   <div class="images">
     <!-- <img load="lazy" alt="Ketchum" class="camp" src="/images/ketchum1.jpg" /> -->
