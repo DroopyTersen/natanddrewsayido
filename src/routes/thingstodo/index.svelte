@@ -8,7 +8,7 @@
   <div class="container">
     <h1>Things to do</h1>
     <img
-      src="https://visitidaho.org/content/uploads/2019/10/181013jjw-0116-1.jpg"
+      src="https://res.cloudinary.com/droopytersen/image/upload/c_scale,q_auto:good,w_1115/v1614564603/natanddrewsayido/things-to-do/181013jjw-0116-1.jpg"
       alt="Sawtooths"
     />
     <p>
