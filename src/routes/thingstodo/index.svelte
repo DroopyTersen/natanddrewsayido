@@ -17,10 +17,10 @@
     </p>
 
     <div>
-      We recommend checking out the..
+      We recommend checking out the...
       <ul>
-        <li>Mountain town vibe of downtown Ketchum.</li>
-        <li>Incredible sights of the Sawtooth Mountains near Stanley.</li>
+        <li>mountain town vibe of downtown Ketchum.</li>
+        <li>incredible sights of the Sawtooth Mountains near Stanley.</li>
       </ul>
     </div>
     <img
@@ -35,10 +35,10 @@
       galleries, and hotels.
     </p>
     <p>
-      North of the venue is Stanley, a tiny town sits looking right up at the
-      Sawtooth Mountains. There isn't much to Stanley, just a few restaurants
-      and a small grocery store but the area is home to some great hikes and
-      alpine lakes.
+      North of the venue is Stanley, a tiny town that sits looking right up at
+      the Sawtooths. There isn't much to Stanley, just a few restaurants and a
+      small grocery store but the area is home to some great hikes and alpine
+      lakes.
     </p>
 
     <div>
