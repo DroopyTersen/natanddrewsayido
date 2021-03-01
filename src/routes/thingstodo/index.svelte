@@ -114,8 +114,33 @@
         </div>
       </ThingToDo>
       <ThingToDo
+        title="Go for a hike"
+        image="https://res.cloudinary.com/droopytersen/image/upload/q_auto:good/v1614563623/natanddrewsayido/things-to-do/hike.jpg"
+      >
+        <p>
+          The area is teeming with great (dog friendly) hikes! You can find
+          anything from a <a
+            href="https://www.traillink.com/trail/wood-river-trail/"
+            target="_blank"
+          >
+            gently winding paved bike path</a
+          >
+          through Sun Valley to a
+          <a
+            href="https://www.alltrails.com/trail/us/idaho/alpine-lake-via-trail-640-and-alpine-way-trail"
+            target="_blank"
+          >
+            death march to an alpine lake
+          </a>.
+        </p>
+        <p>
+          This is our favorite activity, but we're still new to the area so make
+          sure to let us know if you end up finding something cool!
+        </p>
+      </ThingToDo>
+      <ThingToDo
         location="Stanley, ID"
-        title="Horseback Ride"
+        title="Ride a horse"
         image="http://mysticsaddleranch.com/wp-content/uploads/2018/01/redfish-lake-idaho-horseback-riding-1.jpg"
       >
         <p>
@@ -133,7 +158,7 @@
       </ThingToDo>
 
       <ThingToDo
-        title="Soak in a Hot Spring"
+        title="Soak in a hot spring"
         image="https://visitidaho.org/content/uploads/2018/10/NRL_4696_Edit_1_resize-700x467.jpg"
       >
         <p>
@@ -155,7 +180,7 @@
       </ThingToDo>
 
       <ThingToDo
-        title="Dayhike at the Venue"
+        title="Dayhike at the venue"
         location="Central Idaho 4-H Camp"
         image="https://res.cloudinary.com/droopytersen/image/upload/q_auto:good/v1614558223/natanddrewsayido/things-to-do/venue-dayhike.jpg"
       >
