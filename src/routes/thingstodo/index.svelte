@@ -40,8 +40,35 @@
       and a small grocery store but the area is home to some great hikes and
       alpine lakes.
     </p>
-    <div class="cards">
-      <ThingToDo
+
+    <div>
+      <iframe
+        style="height: 600px; max-height:100vw; width: 100%"
+        title="Epic Idaho"
+        src="https://www.youtube.com/embed/gaaT2kbBwKY?feature=oembed&amp;enablejsapi=1"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen="allowfullscreen"
+        data-embed-youtube=""
+        id="youtube-video-auto-id-0"
+        data-gtm-yt-inspected-1_25="true"
+      />
+    </div>
+
+    <p>
+      We've tried to list some fun activities below, but we recommend checking
+      out <a href="https://visitidaho.org/regions/central/">visitidaho.org</a>
+      to really get a feel for the possibilites. You can even order print copies
+      of their
+      <a
+        target="_blank"
+        href="https://visitidaho.org/explore-idaho/maps-and-publications/"
+        >guidebooks and maps</a
+      >!
+    </p>
+
+    <div class="cards" style="margin-top: 40px">
+      <!-- <ThingToDo
         title="Order Travel Guide"
         location="visitidaho.org"
         image="https://res.cloudinary.com/droopytersen/image/upload/c_scale,q_auto:good,w_1190/v1614559051/natanddrewsayido/things-to-do/idahoguides.jpg"
@@ -60,7 +87,7 @@
             Maps & Publications | Visit Idaho
           </a>
         </div>
-      </ThingToDo>
+      </ThingToDo> -->
       <ThingToDo
         title="Redfish Lake Shuttle"
         location="Stanley, ID"
@@ -86,6 +113,47 @@
           </a>
         </div>
       </ThingToDo>
+      <ThingToDo
+        location="Stanley, ID"
+        title="Horseback Ride"
+        image="http://mysticsaddleranch.com/wp-content/uploads/2018/01/redfish-lake-idaho-horseback-riding-1.jpg"
+      >
+        <p>
+          A horseback ride through the spectacular Sawtooth Mountains with
+          Mystic Saddle Ranch, a family-owned and operated company, is one of
+          the most memorable things to do in Idaho with kids. You’ll trot
+          through Ponderosa pine forests, past sparkling lakes and have stunning
+          views of the craggy Sawtooth peaks dusted with snow.
+        </p>
+        <div class="center text-center">
+          <a href="http://mysticsaddleranch.com/trail-rides/">
+            Trail Rides | Mystic Saddle Ranch
+          </a>
+        </div>
+      </ThingToDo>
+
+      <ThingToDo
+        title="Soak in a Hot Spring"
+        image="https://visitidaho.org/content/uploads/2018/10/NRL_4696_Edit_1_resize-700x467.jpg"
+      >
+        <p>
+          Whether you’re looking to bask in untouched natural surroundings or
+          indulge in some modern luxury, you’re in for some first-rate
+          relaxation time when you visit Idaho’s famed hot springs.
+        </p>
+        <p>
+          Tucked away on mountain paths or nestled beside rivers, you’ll find
+          Idaho’s beloved hot springs waiting to wash away your stress. For an
+          alternative soaking experience, visit any of the more developed hot
+          springs spots for a soak with modern amenities.
+        </p>
+        <div class="center text-center">
+          <a href="https://visitidaho.org/things-to-do/hot-springs/">
+            Hot Springs Guide
+          </a>
+        </div>
+      </ThingToDo>
+
       <ThingToDo
         title="Dayhike at the Venue"
         location="Central Idaho 4-H Camp"
