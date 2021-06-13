@@ -3,6 +3,22 @@
   let scrollY = 0;
 </script>
 
+<svelte:window bind:scrollY />
+
+<div class="center save-the-date">
+  <img
+    src="https://res.cloudinary.com/droopytersen/image/upload/c_scale,f_auto,q_auto,w_2234/v1603771183/natanddrewsayido/wedding-mountains.jpg"
+    class="background-image"
+    alt="background"
+  />
+  <div class="center">
+    <div class="cursive">Let's do this</div>
+    <BigDate />
+  </div>
+
+  <div class="location" class:scrolled={scrollY > 0}>Ketchum, ID</div>
+</div>
+
 <style>
   .save-the-date {
     padding: 8rem 2rem;
@@ -66,18 +82,3 @@
     }
   }
 </style>
-
-<svelte:window bind:scrollY />
-
-<div class="center save-the-date">
-  <img
-    src="https://res.cloudinary.com/droopytersen/image/upload/c_scale,f_auto,q_auto,w_2234/v1603771183/natanddrewsayido/wedding-mountains.jpg"
-    class="background-image"
-    alt="background" />
-  <div class="center">
-    <div class="cursive">Save the Date</div>
-    <BigDate />
-  </div>
-
-  <div class="location" class:scrolled={scrollY > 0}>Ketchum, ID</div>
-</div>

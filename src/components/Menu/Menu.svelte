@@ -28,7 +28,7 @@
     <a href="/" class="nav-signature">
       <Signature size="small" />
     </a>
-    <a class:active={path === "/rsvp"} href="/rsvp">Rsvp</a>
+    <a href="/#timeline">Timeline</a>
     <a class:active={path === "/getting-there"} href="/getting-there"
       >Getting there</a
     >
