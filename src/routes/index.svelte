@@ -27,7 +27,7 @@
             Central Idaho 4-H Camp
           </a>
         </li>
-        <li>Be there by 4:30pm</li>
+        <li>Be there on Saturday by 4:30pm</li>
         <li>
           It's open bar and we've got more than enough alcohol. But you can can
           also bring your own if you want someting special.
