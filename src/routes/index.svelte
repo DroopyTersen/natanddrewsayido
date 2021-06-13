@@ -17,7 +17,18 @@
   <SaveTheDate />
   <section class="container small-container">
     <div>
-      <h2>Key Info</h2>
+      <p class="first-p">
+        On
+        <b>June 19, 2021</b>
+        we are getting married in the beautiful Idaho mountains. We've rented the
+        <a
+          target="_blank"
+          href="https://www.google.com/maps/place/Central+Idaho+4-H+Camp/@43.4691744,-110.0573083,5z/data=!4m5!3m4!1s0x54a90b13a008d653:0xecf2756d0f52897d!8m2!3d43.8087604!4d-114.6129285"
+          >Central Idaho 4-H Camp</a
+        >
+        for the weekend, complete with a mountain lodge, and a
+        <a href="/accomodations#cabins">dozen rustic cabins</a>.
+      </p>
       <ul>
         <li>
           <a
@@ -37,9 +48,40 @@
           blankets or a sleeping bag.
         </li>
       </ul>
+      <div class="images">
+        <!-- <img load="lazy" alt="Ketchum" class="camp" src="/images/ketchum1.jpg" /> -->
+        <img
+          load="lazy"
+          alt="4-h Camp"
+          class="camp"
+          src="https://res.cloudinary.com/droopytersen/image/upload/q_auto:best/v1604263589/natanddrewsayido/camp.jpg"
+        />
+      </div>
     </div>
   </section>
   <Timeline />
   <IntroBlurb />
 </main>
+
 <!-- <Accomodations/> -->
+<style>
+  .first-p {
+    margin: 3rem 0;
+  }
+  img.camp {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(0.2);
+    min-height: 100%;
+    max-height: 100%;
+    border-radius: 3px;
+    /* margin-bottom: 3rem; */
+  }
+
+  @media (max-width: 640px) {
+    /* h3 {
+      --size: 2.rem;
+      letter-spacing: 1px;
+    } */
+  }
+</style>
