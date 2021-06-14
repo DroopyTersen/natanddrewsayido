@@ -10,10 +10,13 @@
         <b>5pm</b>: Wedding Ceremony
       </li>
       <li>
-        <b>5:30pm</b>: Cocktail Hour
+        <b>6pm</b>: Cocktail Hour
       </li>
       <li>
-        <b>6:30pm</b>: Dinner
+        <b>7pm</b>: Dinner
+      </li>
+      <li>
+        <b>8:30pm</b>: Campfire Reception
       </li>
     </ul>
 

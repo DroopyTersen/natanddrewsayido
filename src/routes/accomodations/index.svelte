@@ -44,11 +44,14 @@
         />
       </div>
       <p>
-        The cabins have lights and electricity, but <b>they aren't heated</b>.
-        Temperatures outside will probably drop into the upper 30's at night
-        (upper 60's during the day). That said, with a few bodies in there and a
-        solid sleeping bag (or a few thick blankets) it could be a fun "summer
-        camp" style experience.
+        The cabin bunks are... <b>the opposite of luxurious</b>. Think less
+        cabin, more hostel.
+      </p>
+      <p>
+        They have lights and electricity, but they aren't heated or cooled. You
+        will want to <b>bring some bedding</b> (pillow, sheet & blanket or sleeping
+        bag). That said, it could be a fun "summer camp" style experience if you
+        bunk up with some friends and family.
       </p>
       <p>
         There are twice as many bunks as guests so there should be no trouble
